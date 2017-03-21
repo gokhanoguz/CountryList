@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="tumbnail_size">50dp</dimen>
+    <dimen name="detail_image_size">200dp</dimen>
+    <dimen name="country_name_text_size">22sp</dimen>
+</resources>

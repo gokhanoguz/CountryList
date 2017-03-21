@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="8dp"
+    tools:mContext="com.javatar.countrylist.view.activities.CountryDetailsActivity">
+
+    <ImageView
+        android:id="@+id/detail_flag_imageview"
+        android:layout_width="@dimen/detail_image_size"
+        android:layout_height="@dimen/detail_image_size"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/name"
+        android:textSize="@dimen/country_name_text_size"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/country_name_textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="20dp"
+        android:textSize="@dimen/country_name_text_size"
+        android:transitionName="@string/country_name"
+        tools:text="Country" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/population"
+        android:textSize="@dimen/country_name_text_size"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/country_population_textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="20dp"
+        android:textSize="@dimen/country_name_text_size"
+        tools:text="Population" />
+</LinearLayout>

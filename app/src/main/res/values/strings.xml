@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">CountryList</string>
+    <string name="flag_image">flagImage</string>
+    <string name="country_name">countryName</string>
+    <string name="name">Name:</string>
+    <string name="population">Population:</string>
+</resources>
